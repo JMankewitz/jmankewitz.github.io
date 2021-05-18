@@ -3,11 +3,11 @@ layout: page
 title: projects
 permalink: /projects/
 
-nav: true
+nav: false
 display_categories: [research, tools, fun]
 horizontal: false
 ---
-Here are some things I've been working on! Click on a card to read more about a specific project. 
+Here are some things I've been working on! Click on a card to read more about a specific project.
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
