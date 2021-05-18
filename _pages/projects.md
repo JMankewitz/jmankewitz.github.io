@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 
-nav: true
+nav: false
 display_categories: [research, tools, fun]
 horizontal: false
 ---
