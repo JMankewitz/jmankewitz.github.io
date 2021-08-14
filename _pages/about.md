@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: me_image.png
+  image: pinkhair_looking.png
   mouseover-image: me_icon.png
   address:
 
