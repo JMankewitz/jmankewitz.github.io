@@ -18,7 +18,7 @@ nav: true
 </div>
 
 <div class="publications">
-<h4 class="category"> Poster Presentations</h4>
+<h4 class="category"> Contributed Presentations</h4>
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f poster-presentations -q @*[year={{y}}]* %}
