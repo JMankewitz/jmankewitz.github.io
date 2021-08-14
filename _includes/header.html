@@ -31,14 +31,7 @@
               {% endif %}
             </a>
           </li>
-          <li class="nav-item">
-              <a class="nav-link" href={{ '/assets/pdf/CV.pdf' | relative_url }}>
-                CV
-                {% if page.title == p.title %}
-                <span class="sr-only">(current)</span>
-                {% endif %}
-              </a>
-          </li>
+
           {% if site.blog_name %}
           <!-- Blog -->
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
@@ -64,6 +57,15 @@
           </li>
           {% endif %}
           {% endfor %}
+
+          <li class="nav-item">
+              <a class="nav-link" href={{ '/assets/pdf/CV.pdf' | relative_url }}>
+                CV
+                {% if page.title == p.title %}
+                <span class="sr-only">(current)</span>
+                {% endif %}
+              </a>
+          </li>
           {% if site.enable_darkmode %}
             <div class = "toggle-container">
               <a id = "light-toggle">
