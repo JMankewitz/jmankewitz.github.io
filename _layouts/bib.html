@@ -142,17 +142,11 @@
       <p>{{ entry.abstract }}</p>
     </div>
     {% endif %}
-<<<<<<< HEAD
 
     <!-- Hidden bibtex block -->
     {% if entry.bibtex_show %}
     <div class="bibtex hidden">
       {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
-=======
-    {% if entry.type != "misc" %}
-    <div class="bibtex hidden">
-      <p>{{ entry.bibtex }}</p>
->>>>>>> 16022a512984d9daaffd451aa63c8caa2a17b948
     </div>
     {% endif %}
   </div>

@@ -19,7 +19,7 @@ Hi! I'm Jess and I'm the current Lab Manager for the [Language and Cognition Lab
 
 ## Research Interest
 
-I'm most excited when studying how children learn to communicate and interact with the world around them. I'm also curious about how words and meanings are generated and how they shift and evolve through communication. Broadly, I'm interested in the intersection between semantics, pragmatics, and the acquisition of the two. I like to approach these questions with computational models, cleverly designed experiments, and publicly available resources and datasets.
+I'm most excited when studying how humans learn to communicate and interact with the world around them. I'm also curious about how words and meanings are generated and how they shift and evolve through communication. Broadly, I'm interested in the intersection between semantics, pragmatics, and the acquisition of the two. I like to approach these questions with computational models, cleverly designed experiments, and publicly available resources and datasets.
 
 My current work explores ambiguity and polysemy in child contexts: which word meanings are children exposed to, and how do they use polysemy and ambiguity in their own speech?
 
