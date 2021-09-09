@@ -9,6 +9,7 @@ nav: true
 ---
 
 <div class="publications">
+<p><em>* indicates equal contribution</em></p>
 <h4 class="category"> Peer-reviewed Conference Proceedings</h4>
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
@@ -18,10 +19,10 @@ nav: true
 </div>
 
 <div class="publications">
-<h4 class="category"> Contributed Presentations</h4>
+<h4 class="category"> Conference Presentations</h4>
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f poster-presentations -q @*[year={{y}}]* %}
+  {% bibliography -f conference-presentations -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>

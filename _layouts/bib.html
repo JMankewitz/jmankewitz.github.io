@@ -63,12 +63,15 @@
       {% if entry.type == "article" %}
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "misc" %}
-      <em> Poster presented at {{entry.howpublished}}</em>
+      <em> {{entry.howpublished}}.</em>
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        <em>In {{entry.booktitle}}.</em>
+      {% endif %}
+      {% if entry.month %}
+        {{ entry.month}}
       {% endif %}
       {% if entry.year %}
-        {{entry.year}}
+         {{ entry.year}}
       {% endif %}
       </div>
       <div>
