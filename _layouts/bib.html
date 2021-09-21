@@ -147,9 +147,9 @@
     {% endif %}
 
     <!-- Hidden bibtex block -->
-    {% if entry.bibtex_show %}
+    {% if entry.bibtex %}
     <div class="bibtex hidden">
-      {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
+      <p>{% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}</p>
     </div>
     {% endif %}
   </div>
