@@ -64,6 +64,8 @@
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "misc" %}
       <em> {{entry.howpublished}}.</em>
+      {% elsif entry.type == "preprint" %}
+      <em> {{entry.status}}.</em>
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}.</em>
       {% endif %}
@@ -113,6 +115,9 @@
     {% endif %}
     {% if entry.blog %}
       <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Blog</a>
+    {% endif %}
+    {% if entry.github %}
+    <a href="http://github.com/{{ entry.github }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Github</a>
     {% endif %}
     {% if entry.code %}
       <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
