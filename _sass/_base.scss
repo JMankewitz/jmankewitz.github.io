@@ -465,8 +465,9 @@ footer.sticky-bottom {
           }
         }
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
+          font-weight: bold;
+          text-decoration: underline;
         }
       }
       .links {
