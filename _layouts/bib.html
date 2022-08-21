@@ -61,11 +61,15 @@
 
       <div class="periodical">
       {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
+        {%if entry.volume %}
+          <em>{{entry.journal}}, {{entry.volume}}({{entry.issue}}),</em> {{entry.pages}}. 
+        {% else %}
+        <em>{{entry.journal}}.</em>
+        {% endif %}
       {% elsif entry.type == "misc" %}
-      <em> {{entry.howpublished}}.</em>
+        <em> {{entry.howpublished}}.</em>
       {% elsif entry.type == "preprint" %}
-      <em> {{entry.status}}.</em>
+        <em> {{entry.status}}.</em>
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}.</em>
       {% endif %}
