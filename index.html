@@ -11,8 +11,6 @@
   Jess  Mankewitz
 
 
-  | blog
-
 </title>
 <meta name="description" content="Here's some info about me!
 ">
@@ -37,7 +35,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍄</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -79,10 +77,6 @@
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
     <div class="container">
       
-      <a class="navbar-brand title font-weight-lighter" href="/">
-       <span class="font-weight-bold">Jess</span>   Mankewitz
-      </a>
-      
       <!-- Navbar Toggle -->
       <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
@@ -93,17 +87,17 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/">
               about
+              
+                <span class="sr-only">(current)</span>
               
             </a>
           </li>
 
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -167,56 +161,87 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h2 class="post-title">
+     <span class="font-weight-bold">Jess</span>  Mankewitz
+    </h2>
+    <h6> /^J(ay|(ess(ie|ica)?)) Mankewitz/</h6>
+     <p class="desc"></p>
+  </header>
 
-
-  <ul class="post-list">
+  <article>
     
-      <li>
-        <h3><a class="post-title" href="/2021/05/22/distill.html">a distill-style blog post</a></h3>
-        <p class="post-meta">May 22, 2021</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/2020/09/28/github-metadata.html">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/2015/10/20/comments.html">a post with comments</a></h3>
-        <p class="post-meta">October 20, 2015</p>
-        <p>an example of a blog post with comments</p>
-      </li>
-    
-  </ul>
-
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
+    <div class="profile float-right">
       
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
+        <img class="profile-picture" src="/assets/img/pinkhair_looking.png"
+        onmouseover="this.src='/assets/img/me_icon.png'"
+        onmouseout="this.src='/assets/img/pinkhair_looking.png'" />
       
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
+
+    </div>
     
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+    
+    <div class="social">
+      <div class="contact-icons">
+        <a href="mailto:%6D%61%6E%6B%65%77%69%74%7A@%77%69%73%63.%65%64%75"><i class="fas fa-envelope"></i></a>
 
 
+
+
+<a href="https://github.com/jmankewitz" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/jmankewitz" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+<a href="https://twitter.com/jmankewitz" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="contact-note">If you’d like to get in touch, email or Twitter are best!
+</div>
+    </div>
+    
+
+    <div class="clearfix">
+      <p>Hi! I’m Jess and I’m a graduate student at UW-Madison in the <a href="https://infantlearning.waisman.wisc.edu/">Infant Learning Lab</a>! I graduated from UC Berkeley in 2020 with a B.A. in Cognitive Science. As an undergrad, I worked as an RA with Prof. Mahesh Srinivasan and <a href="https://stephanmeylan.com/">Dr. Stephan Meylan</a> in the <a href="https://lcdlab.berkeley.edu/">Language and Cognitive Development Lab</a>. During my postbacc, I was the Lab Manager for the <a href="http://langcog.stanford.edu/index.html">Language and Cognition Lab</a> at <a href="https://www.stanford.edu/">Stanford University</a></p>
+
+<h3 id="research-interest">Research Interest</h3>
+
+<p>I’m most excited when studying how humans learn to communicate and interact with one another. I’m also curious about how words and meanings are generated and how they shift and evolve through communication. Broadly, I’m interested in the intersection between semantics, pragmatics, and the acquisition of the two. I like to approach these questions with computational models, cleverly designed experiments, and publicly available resources and datasets.</p>
+
+<p>I have a few primary lines of active work: 1) exploring toddlers’ understanding of communicative acts in ambiguous contexts, 2) tracking social dynamics during complex coordination and communication games, and 3) measuring the prevalence of lexical ambiguity or colexification in child language environments. I hope all of these projects will help us better understand how and why we use language the way we do.</p>
+
+<h3 id="some-facts-about-me">Some Facts About Me</h3>
+<ul>
+  <li>I’m queer and I accept any pronouns! This means I am comfortable being referred to with any set of pronouns, and I especially appreciate a mix. For example you can say “Jess is cool; I heard they’re from LA! She was just complaining about the traffic.” (If you’d like more information about using multiple sets of pronouns, <a href="https://kconrod.medium.com/intermediate-pronoun-studies-multiple-pronouns-71e34cd28c54">check out this great article by Kirby Conrod!</a>).</li>
+  <li>I’m a first-generation college student. I’ve also struggled with housing insecurity and financial sparsity. Before I was a researcher, I was a babysitter, an IT consultant, a dog trainer, a teacher-in-training, and, briefly, an aspiring astrobiologist. I’m proud of my varied background and am happy to chat about it!</li>
+  <li>I have ADHD and am Autistic. I consider myself disabled and my neurodivergence informs much of what I choose to study.</li>
+  <li>When I’m not staring at the computer, I’m usually knitting, cross stitching, bookbinding, printmaking, spinning yarn, baking or picking up a new hobby of the week. I like to say I’m a “Jack of all trades, master of one or two.” <!-- Check out the "fun" section of [projects](/projects/) to see some stuff I'm up to! --></li>
+</ul>
+
+<h3 id="collaboration">Collaboration</h3>
+
+<p>I am most proud of the work I’ve done in collaboration with others. Science is inherently collaborative, and my experience has been no exception. I’ve had the privilege of a strong mentorship network without which I’d be hopelessly lost. These days, I work most frequently and closely with <a href="https://infantlearning.waisman.wisc.edu/">Jenny Saffran</a>, <a href="https://rxdhawkins.com/">Robert Hawkins</a>, <a href="https://web.stanford.edu/~mcfrank/">Michael C. Frank</a>, <a href="https://profiles.stanford.edu/virginia-marchman">Virginia Marchman</a>, <a href="https://stephanmeylan.com/">Stephan Meylan</a>, <a href="https://www.sammyfloyd.com/">Sammy Floyd</a>, <a href="https://www.ed.ac.uk/profile/hugh-rabagliati">Hugh Rabagliati</a>, and <a href="https://psychology.berkeley.edu/people/mahesh-srinivasan">Mahesh Srinivasan</a>.</p>
+
+<h3 id="other-good-things">Other Good Things</h3>
+
+<ul>
+  <li>Here are some mutual aid and network resources I care about: <a href="https://www.socialjusticecenter.org/madison-man">Madison Mutual Aid Network Resource Center</a>, <a href="https://www.bayareamutualaid.org/">Bay Area Mutual Aid</a>, <a href="https://queerculturalcenter.org/mutual-aid-resources/">SF Queer Cultural Center’s Resource List</a>, <a href="https://www.mutualaidla.org/">Mutual Aid Network - Los Angeles</a></li>
+  <li>The icon revealed on hover up top was commissioned from @LiefDodig on <a href="https://twitter.com/LeifDodig">twitter</a> and <a href="https://www.instagram.com/leifdodig">instagram</a> and the font used for this site is the “Atkinson Hyperlegible Font” and can be downloaded (for free!) from <a href="https://brailleinstitute.org/freefont">The Braille Institute</a>.</li>
+</ul>
+
+    </div>
+
+    
+
+    
+
+  </article>
 
 </div>
 
